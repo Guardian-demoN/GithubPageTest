@@ -2,18 +2,70 @@
 
 <head>
     <title>Lecture 2. Learning HTML</title>
-    <style type="text/stylesheet">
+    <style>
+body{
+    background-color: beige;
+}
 
+div{
+    margin: 5px;
+}
+
+img{
+    display: block;
+    width: 400px;
+}
+
+table{
+    font-size: 20px;
+    width: 300px;
+}
+
+table tr td:first-child{
+    font-weight: bold;
+}
+
+table tr td{
+    text-align: center;
+    border: 1px solid black;
+}
     </style>
 </head>
 
 <body>
     <!-- REFERENCE : https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/ -->
     <h2>Cooking lasagna</h2>
-    <img src="res/lasagna.jpg" />
-
+    <img src="res/lasagna.jpg"/>
     <div>
-        Instructions
+        <table>
+            <tr>
+                <td>Prep</td>
+                <td>30 mins</td>
+            </tr>
+            <tr>
+                <td>Cook</td>
+                <td>2 hrs 30 mins</td>
+            </tr>
+            <tr>
+                <td>Additional</td>
+                <td>15 mins</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>3 hrs 15 mins</td>
+            </tr>
+            <tr>
+                <td>Servings</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Yield</td>
+                <td>12 servings</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h3>Instructions</h3>
         <ol>
             <li>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir
                 in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds,
@@ -34,11 +86,15 @@
         </ol>
     </div>
 
-    <span>refernece: <a
-            href="https://pixabay.com/ko/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2069021">Pixabay</a>로부터
-        입수된 <a
-            href="https://pixabay.com/ko/users/angelorosa-4392745/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2069021">Angelo
-            Rosa</a>님의 이미지 입니다.</span>
+    <span>
+        <h3>refernece</h3>
+        <ul>
+        <li><a href="https://pixabay.com/ko/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2069021">
+        Pixabay</a>로부터 입수된 <a href="https://pixabay.com/ko/users/angelorosa-4392745/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2069021">
+        Angelo Rosa</a>님의 이미지 입니다.</li>
+        <li>recipe from <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">allrecipes</a></li>
+    </ul>
+    </span>
 
 </body>
 
