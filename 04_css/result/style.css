@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+}
+
+h2{
+    display: inline-block;
+
+    font-size: 1.5em;
+    transition: 0.5s all;
+}
+
+h2:hover{
+    font-size: 2em;
+    transition: 0.5s all;
+}
+
+div{
+    margin: 5px;
+}
+
+img{
+    opacity: 0.8;
+
+    display: block;
+    width: 40vw;
+
+    transition: 0.2s opacity;
+}
+
+img:hover{
+    opacity: 1;
+
+    transition: 0.2s opacity;
+}
+
+table{
+    font-size: 20px;
+    width: 300px;
+}
+
+table tr td:first-child{
+    font-weight: bold;
+}
+
+table tr td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+td.important-category{
+    font-weight: bold;
+}
+
+button#save-recipe{
+    margin: 20px;
+
+    background-color: brown;
+    color: white;
+
+    border: 3px solid black;
+
+    font-size: 20px;
+    font-weight: normal;
+
+    height: 40px;
+    width: 50vw;
+
+    transition: 0.5s all;
+}
+
+button#save-recipe:hover{
+    background-color: brown;
+    color: white;
+
+    border: 3px solid black;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    height: 60px;
+
+    transition: 0.5s all;
+}
