@@ -2,34 +2,7 @@
 
 <head>
     <title>Lecture 2. Learning HTML</title>
-    <style>
-body{
-    background-color: beige;
-}
-
-div{
-    margin: 5px;
-}
-
-img{
-    display: block;
-    width: 400px;
-}
-
-table{
-    font-size: 20px;
-    width: 300px;
-}
-
-table tr td:first-child{
-    font-weight: bold;
-}
-
-table tr td{
-    text-align: center;
-    border: 1px solid black;
-}
-    </style>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 
 <body>
@@ -52,19 +25,18 @@ table tr td{
             </tr>
             <tr>
                 <td>Total</td>
-                <td>3 hrs 15 mins</td>
+                <td class="important-category">3 hrs 15 mins</td>
             </tr>
             <tr>
                 <td>Servings</td>
-                <td>12</td>
+                <td class="important-category">12</td>
             </tr>
             <tr>
                 <td>Yield</td>
-                <td>12 servings</td>
+                <td class="important-category">12 servings</td>
             </tr>
         </table>
     </div>
-    <hr />
     <div>
         <h3>Instructions</h3>
         <ol>
@@ -96,7 +68,7 @@ table tr td{
         <li>recipe from <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">allrecipes</a></li>
     </ul>
     </span>
-
+    <button id="save-recipe">save recipe</button>
 </body>
 
 </html>
